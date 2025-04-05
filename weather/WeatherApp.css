@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+*{
+    font-family: "inter",sans-serif;
+}
+body{
+    
+   margin: 0;
+   padding: 0;
+   width: 100vw;
+   height: 100vh;
+   background-color: gray;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container{
+    width: 350px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white
+    
+}
+.input-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cityInput{
+    flex: 1;
+    height: 30px;
+    border:none;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+
+}
+.search-icon{
+    padding: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.search-icon img{
+
+    margin-top: 5px;
+}
+.image{
+    text-align: center;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.image img{
+    width: 160px;
+    height: 160px;
+}
+.temp,.location,.country{
+   margin-top: 5px;
+   font-size: 30px;
+   color: #333;
+   text-transform: uppercase;
+   text-align: center;
+}
+.temp{
+    font-weight: 500;
+   
+}
+.location{
+    color:rgb(244 137 29);
+    font-size: 20px;
+    font-weight: 400;
+}
+.country{
+    color:rgb(117, 117, 110);
+    font-size: 16px;
+    font-weight: 400;
+}
+.cord{
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.cord div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  padding: 10px;
+}
+.cord div span{
+    font-size: 15px;
+
+}
+.humitity,.wind,
+.cord div span:nth-child(2){
+    font-size: 18px;
+    font-weight: 500;
+    color:#666;
+    padding: 5px;
+}
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.element{
+    text-align: center;
+}
+.text{
+    font-size: 13px;
+    color: #888;
+}
+.copy-right{
+    font-size: 13px;
+    color:#888;
+    text-align: center;
+}
+.copy-right span{
+    color:navy
+}
+.city-Not-Found,
+.loading-message,
+.error-message {
+  margin-top: 10px;
+  color: #888;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
