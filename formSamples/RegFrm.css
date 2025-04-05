@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "inter",sans-serif;
+}
+table{
+    border:1px solid #ccc;
+    border-collapse: collapse; 
+}
+table td{
+    border:1px solid #ccc;
+    padding: 5px 10px;
+}
+table td:first-child{
+   font-weight: 600;
+}
+form{
+    width: 300px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.select-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
